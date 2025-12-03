@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Canvas, useFrame } from '@react-three/fiber';
+import { Canvas } from '@react-three/fiber';
 import { Float, ContactShadows, OrbitControls } from '@react-three/drei';
 
 const RetroComputer = (props) => {
@@ -10,7 +10,6 @@ const RetroComputer = (props) => {
     const darkBeige = "#c0c0b0";
     const screenBlack = "#111";
     const screenGreen = "#33ff33";
-    const keyColor = "#333";
 
     return (
         <group ref={group} {...props} dispose={null}>

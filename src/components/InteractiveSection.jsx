@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import ControlPanel from './ControlPanel';
 
 const InteractiveSection = ({ title, description, icon, controls, demo, values, onValueChange, config }) => {
